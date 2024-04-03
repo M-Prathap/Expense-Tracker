@@ -1,0 +1,58 @@
+.container_Box {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 538px;
+  height: 164px;
+  top: 296px;
+  left: 371px;
+  border-radius: 15px;
+  color: white;
+  background: #efefef;
+  z-index: 00;
+}
+.Expense {
+  width: 538px;
+  height: 300px;
+  gap: 0px;
+  border-radius: 15px;
+  opacity: 0px;
+  background: #efefefd9;
+  color: black;
+}
+.submitButton {
+  width: 145px;
+  height: 51px;
+  top: 378px;
+  left: 630px;
+  gap: 0px;
+  border-radius: 15px;
+  opacity: 0px;
+  color: white;
+  background: linear-gradient(0deg, #f4bb4a, #f4bb4a);
+}
+.Amount {
+  width: 217px;
+  height: 51px;
+  top: 377px;
+  left: 401px;
+  gap: 0px;
+  border-radius: 15px;
+  opacity: 0px;
+}
+.cancelButton {
+  width: 112px;
+  height: 51px;
+  top: 379px;
+  left: 791px;
+  gap: 0px;
+  border-radius: 15px;
+  opacity: 0px;
+  background: linear-gradient(0deg, #d9d9d9, #d9d9d9);
+}
+.Form {
+  display: grid;
+  grid-template-columns: auto auto; /* Two columns of equal width */
+  grid-gap: 10px; /* Optional: Add gap between grid items */
+}

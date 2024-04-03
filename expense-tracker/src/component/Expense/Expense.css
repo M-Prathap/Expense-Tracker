@@ -1,0 +1,22 @@
+.Amount {
+  color: #f4bb4a;
+}
+.capsuleButton {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #ff9595 0%, #ff4747 80%, #ff3838 100%);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px; /* Adjust this value to change the curvature of the button */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: Ubuntu;
+  font-weight: 700;
+}
+
+.capsuleButton:hover {
+  background-color: #ff3838;
+}

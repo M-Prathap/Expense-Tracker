@@ -1,0 +1,30 @@
+.Amount {
+  color: #89e148;
+}
+.capsuleButton1 {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #b5dc52 0%, #89e148 100%);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px; /* Adjust this value to change the curvature of the button */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: Ubuntu;
+  font-weight: 700;
+}
+
+.capsuleButton:hover {
+  background-color: #45a049;
+}
+/* .POP{
+  display: flex;
+  width: 5000px;
+  height: 5000px;
+  color: white;
+  background: black;
+  z-index: 100;
+} */

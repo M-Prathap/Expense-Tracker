@@ -1,0 +1,117 @@
+.TransactionContainer {
+  width: 738.33px;
+  max-height: 345.03px; /* Change height to max-height */
+  top: 440.97px;
+  left: 32px;
+  gap: 0px;
+  border-radius: 15px;
+  opacity: 1; /* Change opacity to 1 to make it visible */
+  background: #ffffff;
+  color: black;
+  overflow: auto; /* Add overflow auto to enable scrolling if content overflows */
+}
+
+.ArrowButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 34px;
+  height: 34px;
+  padding: 8px 7px 8px 5px;
+  gap: 0px;
+  border-radius: 15px;
+  background: transparent; /* Change background to transparent */
+  color: black; /* Adjust color */
+  border-color: #ffffff;
+  background: gainsboro;
+}
+
+.PageNumber {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 37px;
+  height: 37px;
+  gap: 0px;
+  border-radius: 5px;
+  background: #43967b;
+  color: #ffffff;
+}
+
+.ButtonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
+}
+.RowEntry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ExpenseDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+.ExpenseAction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.Price {
+  width: 37px;
+  height: 22px;
+  top: 490px;
+  left: 627px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.79px;
+  text-align: left;
+  color: #f4bb4a;
+}
+.DeleteIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 37px;
+  height: 37px;
+  top: 482px;
+  left: 685px;
+  gap: 0px;
+  border-radius: 15px;
+  opacity: 0px;
+  background: #ff3838;
+}
+.EditIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 37px;
+  height: 37px;
+  top: 482px;
+  left: 728px;
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 15px;
+  background: #f4bb4a;
+}
+.ItemIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  height: 38px;
+  top: 478px;
+  left: 59px;
+  gap: 0px;
+  border-radius: 100%;
+  opacity: 0px;
+  background: gainsboro;
+}

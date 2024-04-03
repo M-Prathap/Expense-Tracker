@@ -1,0 +1,48 @@
+/* bar-chart-container styles */
+.bar-chart-container {
+  margin: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* ResponsiveContainer styles */
+.recharts-responsive-container {
+  width: 100%;
+  height: 100px;
+  border-radius: 15px;
+}
+
+/* XAxis styles */
+.recharts-cartesian-axis-line {
+  stroke: #e0e0e0;
+}
+
+/* YAxis styles */
+.recharts-yAxis {
+  stroke: #e0e0e0;
+}
+
+/* Bar styles */
+.recharts-bar {
+  fill: #8884d8;
+}
+
+/* Tooltip styles (optional) */
+.recharts-tooltip {
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+}
+
+.recharts-tooltip-label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.recharts-tooltip-item {
+  color: #8884d8;
+}

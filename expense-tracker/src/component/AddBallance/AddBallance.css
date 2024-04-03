@@ -1,0 +1,57 @@
+.add-balance-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}
+
+.add-balance-content {
+  width: 350px;
+  height: 200px;
+  padding: 20px;
+  background-color: #efefef;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  color: black;
+}
+
+.add-balance-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-balance-input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.add-balance-button {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  background-color: #f4bb4a;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-balance-button.cancel-button {
+  background-color: #d9d9d9;
+  margin-top: 10px;
+}
+
+.add-balance-button:hover {
+  background-color: #e0a800;
+}

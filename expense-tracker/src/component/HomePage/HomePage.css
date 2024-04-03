@@ -1,0 +1,29 @@
+.Container {
+  color: white;
+}
+.TopContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 269px;
+  top: 94px;
+  left: 32px;
+  gap: 0px;
+  border-radius: 10px;
+  opacity: 0px;
+  background: #626262;
+}
+.ExpenseContainer {
+  width: 417px;
+  height: 345px;
+  top: 441px;
+  left: 800px;
+  gap: 0px;
+  border-radius: 15px;
+  opacity: 0px;
+  background: #ffffff;
+}
+.TransactionExpenseContainer {
+  display: flex;
+  justify-content: space-around;
+}
